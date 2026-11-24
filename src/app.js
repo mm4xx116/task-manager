@@ -1,4 +1,4 @@
-const APP_TITLE = "Task Manager";
+const APP_TITLE = "Task Manager v1";
 
 const tasks = [];
 
