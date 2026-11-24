@@ -1,6 +1,6 @@
 import { login } from "./login.js";
 
-const APP_TITLE = "Task Manager";
+const APP_TITLE = "Task Manager - Login";
 
 const tasks = [];
 
