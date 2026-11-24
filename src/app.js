@@ -1,3 +1,5 @@
+import { login } from "./login.js";
+
 const APP_TITLE = "Task Manager";
 
 const tasks = [];
@@ -17,6 +19,9 @@ function render() {
     list.appendChild(item);
   }
 }
+
+const result = login("student", "1234");
+console.log(result.message);
 
 addTask("Вивчити git init");
 addTask("Зробити перший коміт");
